@@ -25,7 +25,7 @@
     .flexible-space-wrapper[data-v-69532b40],.page-wrapper[data-v-2d5ee271]{display:flex;flex-direction:column;width:100%;}
     .page-wrapper[data-v-2d5ee271]{align-items:center;z-index:1;}
     .page-wrapper .hero-section[data-v-2d5ee271]{display:flex;flex-direction:column;align-items:center;width:100%;z-index:4;}
-    .page-wrapper .main-section[data-v-2d5ee271]{display:flex;width:100%;flex-direction:column;max-width:1200px;align-items:flex-start;z-index:3;position:relative;}
+    .page-wrapper .main-section[data-v-2d5ee271]{display:block;width:100%;flex-direction:column;max-width:1200px;align-items:flex-start;z-index:3;position:relative;}
     @media only screen and (min-width:768px){
     .page-wrapper .main-section[data-v-2d5ee271]{gap:40px;}
     }
@@ -1534,3 +1534,66 @@
   @media (min-width:1024px){
   .copyright[data-v-6a0d8596]{margin-top:20px;}
   }
+  /*! CSS Used from: https://dynamic-template.api-domain-compado.com/bc52fabb7fd34dbbb5698049f69412fac76d8d9b/css/app.css?v=APP_VERSION/assets/ ; media=all */
+@media all{
+  *{font-family:Roboto,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;box-sizing:border-box;}
+  a{text-decoration:none;color:#333;}
+  a{background-color:transparent;}
+  img{border-style:none;}
+  .rating-wrapper[data-v-3c5eba54]{justify-content:center;display:flex;flex-wrap:wrap;margin-top:calc(var(0)*-1);margin-left:calc(var(--gap)*-1);}
+  .rating-wrapper>[data-v-3c5eba54]{display:flex;margin-top:var(0);margin-left:var(--gap);}
+  .icon-wrapper[data-v-3c5eba54]{position:relative;display:flex;}
+  .active-half-icon[data-v-3c5eba54]{display:flex;z-index:2;position:relative;overflow:hidden;}
+  .inactive-half-icon[data-v-3c5eba54]{z-index:1;position:absolute;top:0;}
+  }
+  /*! CSS Used from: https://dynamic-template.api-domain-compado.com/bc52fabb7fd34dbbb5698049f69412fac76d8d9b/css/PartnerPodium.css */
+  .cta-button[data-v-9c497834]{display:flex;cursor:pointer;position:relative;border-radius:5px;width:100%;text-align:center;color:var(--text-color);}
+  .cta-button[data-v-9c497834]:after{content:"";position:absolute;width:100%;height:100%;top:0;left:0;border-radius:inherit;background:var(--primary);}
+  .cta-button[data-v-9c497834]:hover:after{filter:brightness(.95) drop-shadow(0 4px 4px rgba(0,0,0,.15));}
+  .cta-button span[data-v-9c497834]{margin:auto;position:relative;z-index:1;text-transform:capitalize;font-weight:700;line-height:32px;}
+  .cta-button.oval[data-v-9c497834]{border-radius:30px;}
+  /*! CSS Used from: https://dynamic-template.api-domain-compado.com/bc52fabb7fd34dbbb5698049f69412fac76d8d9b/css/1051.css */
+  .cta-button[data-v-9c497834]{display:flex;cursor:pointer;position:relative;border-radius:5px;width:100%;text-align:center;color:var(--text-color);}
+  .cta-button[data-v-9c497834]:after{content:"";position:absolute;width:100%;height:100%;top:0;left:0;border-radius:inherit;background:var(--primary);}
+  .cta-button[data-v-9c497834]:hover:after{filter:brightness(.95) drop-shadow(0 4px 4px rgba(0,0,0,.15));}
+  .cta-button span[data-v-9c497834]{margin:auto;position:relative;z-index:1;text-transform:capitalize;font-weight:700;line-height:32px;}
+  .cta-button.oval[data-v-9c497834]{border-radius:30px;}
+  .partner-row-alpha .partner-row[data-v-2774409a]{border-radius:5px;background:#fff;box-shadow:4px 4px 14px rgba(70,69,70,.25);display:flex;flex-direction:column;margin-bottom:16px;width:100%;position:relative;}
+  @media only screen and (min-width:768px){
+  .partner-row-alpha .partner-row[data-v-2774409a]{margin-bottom:20px;}
+  }
+  .partner-row-alpha .partner-row .partner-row-link-wrapper[data-v-2774409a]{width:100%;height:100%;position:absolute;}
+  .partner-row-alpha .partner-row .top-row[data-v-2774409a]{padding:18px 10px 10px;display:grid;}
+  @media only screen and (min-width:768px){
+  .partner-row-alpha .partner-row .top-row[data-v-2774409a]{padding:20px;}
+  }
+  .partner-row-alpha .partner-row .top-row .partner-logo[data-v-2774409a]{grid-area:partner-logo;position:relative;display:flex;border-radius:5px;overflow:hidden;box-shadow:2px 2px 10px rgba(70,69,70,.25);width:100px;height:100px;justify-self:center;}
+  .partner-row-alpha .partner-row .top-row .partner-logo>a[data-v-2774409a]{display:flex;}
+  .partner-row-alpha .partner-row .top-row .partner-logo .logo[data-v-2774409a]{object-fit:contain;}
+  .partner-row-alpha .partner-row .top-row .partner-information[data-v-2774409a]{grid-area:partner-information;display:flex;flex-direction:column;}
+  .partner-row-alpha .partner-row .top-row .partner-information .partner-name[data-v-2774409a]{position:relative;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-bottom:5px;}
+  .partner-row-alpha .partner-row .top-row .partner-information .partner-description[data-v-2774409a]{position:relative;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;}
+  .partner-row-alpha .partner-row .top-row .partner-score[data-v-2774409a]{grid-area:partner-score;position:relative;}
+  .partner-row-alpha .partner-row .top-row .partner-rating[data-v-2774409a]{grid-area:partner-rating;justify-self:center;position:relative;}
+  .partner-row-alpha .partner-row .top-row .review-link[data-v-2774409a]{grid-area:review-link;position:relative;font-weight:700;text-decoration:underline;}
+  .partner-row-alpha .partner-row .top-row .review-link .link[data-v-2774409a]{color:inherit;}
+  .partner-row-alpha .partner-row .top-row .clickout-button[data-v-2774409a]{grid-area:clickout-button;max-height:32px;}
+  @media only screen and (min-width:768px){
+  .partner-row-alpha .partner-row .top-row .clickout-button[data-v-2774409a]{min-height:40px;max-height:40px;}
+  }
+  .partner-row-alpha .partner-row .top-row.mobile-layout-1[data-v-2774409a]{grid-template-columns:minmax(100px,1fr) 1fr 1fr 1fr;grid-gap:10px;align-items:center;grid-template-areas:"partner-logo partner-information partner-information partner-information" "partner-logo partner-icons partner-icons partner-icons" "partner-logo partner-score price review-link" "partner-rating clickout-button clickout-button clickout-button";}
+  .partner-row-alpha .partner-row .top-row.mobile-layout-1 .review-link[data-v-2774409a]{text-align:right;}
+  /*! CSS Used from: https://dynamic-template.api-domain-compado.com/bc52fabb7fd34dbbb5698049f69412fac76d8d9b/css/9323.css */
+  .default-flag{z-index:21;padding:0 10px;border-top-left-radius:var(--border-radius);position:absolute;top:0;left:0;background:var(--primary);color:#fff;transform:translateY(-50%);max-width:calc(100% - 40px);}
+  @media only screen and (min-width:768px){
+  .default-flag{padding:0 15px;}
+  }
+  .default-flag>.flag-text{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;font-size:12px;line-height:24px;}
+  @media only screen and (min-width:768px){
+  .default-flag>.flag-text{font-size:16px;line-height:28px;}
+  }
+  .default-flag.__tailed:after{content:"";position:absolute;top:0;right:-14px;border:12px solid var(--primary);border-right-color:transparent!important;}
+  @media only screen and (min-width:768px){
+  .default-flag.__tailed:after{right:-18px;border:14px solid var(--primary);}
+  }
+  
