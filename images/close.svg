@@ -1,0 +1,5 @@
+<svg data-test-id="close-quiz" fill="black" height="25" viewBox="0 0 30 30" width="25"
+    xmlns="http://www.w3.org/2000/svg">
+    <path d="m22.5 7.5-15 15M7.5 7.5l15 15" stroke="black" stroke-linecap="round"
+        stroke-linejoin="round" stroke-width="3" />
+</svg>
